@@ -1,0 +1,35 @@
+.name {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+table,
+th,
+td {
+    border: 0.5px solid black;
+    border-collapse: collapse;
+    padding:10px 20px;
+    text-align: left;
+    font-style: normal;
+    font: 0.9em sans-serif;
+}
+h2 {
+    font-family: sans-serif;
+}
+.here{
+    margin-top: -15px;
+    font: 0.9em sans-serif;
+}
+.first {
+   table-layout: fixed;
+   width: 50%; 
+}
+button {
+    margin-top: 15px;
+    height: 25px;
+    width: 80px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 7px;
+}
